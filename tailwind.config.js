@@ -5,8 +5,8 @@ module.exports = {
     './page/**/*.{js,ts,jsx,tsx}',
     './ui/**/*.{js,ts,jsx,tsx}',
   ],
-  future:{
-    hoverOnlyWhenSupported: true
+  future: {
+    hoverOnlyWhenSupported: true,
   },
   theme: {
     extend: {
@@ -63,4 +63,5 @@ module.exports = {
       }),
     },
   },
+  plugins: [require('@tailwindcss/typography')],
 };
